@@ -20,7 +20,7 @@ public class CommandDrama extends Command {
     private final Random random;
 
     public CommandDrama(IrcBot bot) {
-        super(bot, "drama", "drama");
+        super(bot, "Drama", "drama");
         random = new Random();
     }
 
